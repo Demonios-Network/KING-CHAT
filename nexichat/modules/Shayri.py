@@ -73,10 +73,10 @@ async def shayri(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/TG_FRIENDSS"
+                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/LOYAL_KINGDOM"
                     ),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/VIP_CREATORS"
+                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/LOYAL_IMPERIAL"
                     ),
                 ]
             ]
@@ -109,7 +109,7 @@ async def send_good_night():
             shayari = random.choice(night_shayari)
             await nexichat.send_photo(
                 chat_id,
-                photo="https://telegra.ph//file/06649d4d0bbf4285238ee.jpg",
+                photo="https://files.catbox.moe/25vntq.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )
@@ -128,7 +128,7 @@ async def send_good_morning():
             shayari = random.choice(morning_shayari)
             await nexichat.send_photo(
                 chat_id,
-                photo="https://telegra.ph//file/14ec9c3ff42b59867040a.jpg",
+                photo="https://files.catbox.moe/x1eei7.jpg",
                 caption=f"**{shayari}**",
                 reply_markup=add_buttons,
             )
