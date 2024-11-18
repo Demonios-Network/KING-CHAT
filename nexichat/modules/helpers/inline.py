@@ -13,10 +13,10 @@ START_BOT = [
     ],
     [
         InlineKeyboardButton(text="Developer", user_id=OWNER),
-        InlineKeyboardButton(text="Support", url=f"https://t.me/{LegitXSupport}"),
+        InlineKeyboardButton(text="Support", url=f"https://t.me/LegitXSupport"),
     ],
     [
-        InlineKeyboardButton(text="« Commands »", callback_data="HELP"),
+        InlineKeyboardButton(text="« Want to Make Your Own Bot »", url=f"https://t.me/Legit_Networks/140"),
     ],
 ]
 
@@ -24,7 +24,7 @@ START_BOT = [
 DEV_OP = [
     [
         InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{LegitXSupport}"),
+        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/LegitXSupport"),
     ],
     [
         InlineKeyboardButton(
